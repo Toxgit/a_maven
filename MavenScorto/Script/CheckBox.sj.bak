@@ -1,0 +1,17 @@
+﻿Log.Message("CheckBox");
+function checkBoxSetChecked(chkBox, value)
+{
+  Log.Message("CheckBoxxxxx");
+  if (value != chkBox.Checked)
+  {
+    chkBox.ClickButton();
+  }
+}
+
+function radiobuttonSetChecked(radiobutton, value)
+{
+  if (value != radiobutton.wState)
+  {
+    radiobutton.Click(7, 8);
+  }
+}

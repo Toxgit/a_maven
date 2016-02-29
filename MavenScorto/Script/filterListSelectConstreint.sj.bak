@@ -1,0 +1,46 @@
+﻿//USEUNIT MainMenuHelper2
+//USEUNIT OpenStrHelper
+//USEUNIT Settings
+//USEUNIT VariablesHelper
+
+
+//данный тест проверяет фильтрацию constraint
+function filterListSelectConstraint()
+{
+  var testStrategyPath =  strLocation + "Constraint.strat";//путь к стратегии для теста
+  var toolbar = new Toolbar.Toolbar();
+  var variables = new Variables.Variables();
+  var selectConstraint = new SelectConstraint.SelectConstraint();
+  
+  Log.Message("Проверка фильтрацию Constraint.");
+  openStrByPath(testStrategyPath);
+  toolbar.variables();
+  clickRowByName("String2");
+  chooseProperty("Constraint name");
+  variables.toSelectConstraint();
+  
+  filterList(selectConstraint, "Name", "str");
+  checkListItemPosition(selectConstraint, "StringConstraint2", 0);
+  checkListItemPosition(selectConstraint, "StringConstraint3", 1);
+  filterListClear(selectConstraint);
+  
+  filterList(selectConstraint, "Type", "string");
+  checkListItemPosition(selectConstraint, "StringConstraint2", 2);
+  checkListItemPosition(selectConstraint, "StringConstraint3", 3);
+  filterListClear(selectConstraint);
+  
+  filterList(selectConstraint, "Values", "aaa");
+  checkListItemPosition(selectConstraint, "Constraint1", 0);
+  checkListItemPosition(selectConstraint, "StringConstraint3", 1);
+  filterListClear(selectConstraint);
+  
+  filterList(selectConstraint, "Used", "Yes");
+  checkListItemPosition(selectConstraint, "Constraint1", 0);
+  filterListClear(selectConstraint);
+  
+//закоментировано т.к. тесты сортировки и фильтрации выполняются на техже данных
+  //postcondition
+  /*selectConstraint.cancel();
+  variables.ok();
+  toolbar.close();*/
+}

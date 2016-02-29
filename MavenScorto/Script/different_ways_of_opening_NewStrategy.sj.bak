@@ -1,0 +1,24 @@
+﻿//USEUNIT TestLogging
+//USEUNIT NewStrategyHelper
+//USEUNIT ToolbarHelper
+
+function newStrategy_hotkey_menu()
+{
+  //preconditions
+  BeginTestTransaction("NewStrategy_hotkey_menu","тест проверяет Name стратегии.");
+   
+  //test body 
+  for (var i=0; i< ODT.Data.NewStrategy.VariableCount; i++)
+  {
+    var item = ODT.Data.NewStrategy.Variables(i).Value;
+    if (item.options !== "name") continue; 
+    logStep("Iteration "+i);
+    toolbar_newStr();
+    newStrategy_fillInOk(item);
+    
+    if (nsdf.verifyStr(item))menu.closeStrategy();
+    
+    newStrategy_verify(item);
+  }
+  EndTestTransaction();
+}

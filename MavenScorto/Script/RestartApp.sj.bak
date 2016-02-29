@@ -1,0 +1,12 @@
+﻿//USEUNIT StartApp
+//USEUNIT StopApp
+
+function restart()
+{
+  var app = Aliases.Maven;
+  if (app.Exists)
+  {
+    stop();
+  }
+  start()
+}

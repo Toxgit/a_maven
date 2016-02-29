@@ -1,0 +1,33 @@
+﻿//USEUNIT ToolbarHelper
+//USEUNIT NewStrategyHelper
+//USEUNIT ImportConstraintHelper
+//USEUNIT ConstraintsHelper
+
+function From_server_ErlierStrategy()
+{
+   //initialization
+  var testStrategy;
+  for (var i=0; i< ODT.Data.OpenStrategy.VariableCount; i++)
+  {
+    var item = ODT.Data.OpenStrategy.Variables(i).Value;
+    if (item.options == "import constraints") testStrategy = item.versionName;
+  }
+  //precondition
+  Log.Message("Тест проверяет импорт constraints из нанней версии стратегии, загруженной на сервер");
+ /* createNewStrToolbar();
+  toolbar_constraints();
+  constraint_import();*/
+  //test bodys
+ importConstraint.alias.UploadedStrategies.DropDown();
+  //ListViewSelectItem(popupImpotrtConstraint.list, "Import constraints")
+  //Aliases.Maven.Popup_importConstraint.List.DblClickItem("|Import constraints|Import constraints (2/2/2016 11:41:21 AM)");
+  
+ // Aliases.Maven.Popup_importConstraint.List.DblClickItem("|a_Fetch");
+  //impConstr_selectErlierRemoteStrategy(testStrategy);
+   //ListViewSelectSubItem(Aliases.Maven.dlgOpenRemoteServer.List, item);
+   ListViewSelectSubItem(Aliases.Maven.Popup_importConstraint.List, item);
+   
+  //postcondition
+  /*constraint.ok();
+  closeOneStrToolbar(); */
+} 

@@ -1,0 +1,94 @@
+﻿//USEUNIT Settings
+//USEUNIT VariablesHelper
+//USEUNIT OpenStrHelper
+//USEUNIT Toolbar
+
+function deleteVariable()
+{
+  //test deldete variable 
+  //initialization
+  var testStrategyPath =  strLocation + "Delete_Variable.strat";//путь к стратегии для теста
+  var menu = new MainMenuControl();
+  var variables = new Variables.Variables();
+  var info = new XtraInfo.XtraInfo();
+  var toolbar = new Toolbar.Toolbar();
+  
+  //precondition
+  openStrByPath(testStrategyPath);
+  toolbar.variables();
+  
+  //test bodys
+  //1 noLinked noUsed
+  clickRowByName("VarBinary");
+  variables.del();
+  Log.Message("1. noLinked noUsed");
+  Regions.XtraMessageBoxNolinkedNoused.Check(Regions.CreateRegionInfo(info.alias, 2, 16, 306, 54, false), false, false, 1652, 25);
+  info.no();
+  checkingExistsVariables("VarBinary");
+  //2 Linked noUsed
+  clickRowByName("OutputDataLayerName");
+  variables.del();
+  Log.Message("2. Linked noUsed");
+  Regions.XtraMessageBoxLinked.Check(info.alias, false, false, 9579, 25);
+  info.no();
+  checkingExistsVariables("OutputDataLayerName");
+  //3 noLinked Used
+  clickRowByName("VarInput");
+  variables.del();
+  Log.Message("3. noLinked Used");
+  Regions.XtraMessageBoxUsed.Check(info.alias, false, false, 15089, 34);
+  info.no();
+  checkingExistsVariables("VarInput");
+  //4 Linked Used
+  clickRowByName("specialVarLinkedUsed");
+  variables.del();
+  Log.Message("4. Linked Used");
+  Regions.XtraMessageBoxLinkedUsed.Check(info.alias, false, false, 6640, 25);
+  info.no();
+  checkingExistsVariables("specialVarLinkedUsed");
+    
+  //Delete several variables at once
+  Log.Message("Delete several variables at once");
+  //1 noLinked noUsed
+  filterVariables("Name", "var");
+  filterVariables("Type", "str");
+  clickRowByIndex(variables,0);
+  variables.selectAll();
+  variables.del();
+  Regions.DeleteSeveralVarNolinkedNoused.Check(info.alias, false, false, 4081, 25);
+  info.no();
+  //2 Linked Used
+  variables.cancel();
+  toolbar.variables();
+  variables.selectAll();
+  variables.del();
+  Regions.DeleteSeveralAll.Check(info.alias, false, false, 7001, 17);
+  info.no();
+  variables.unSelectAll();
+ 
+  //delete -> OK
+  clickRowByName("OutputDataLayerName");
+  variables.del();
+  info.ok();
+  checkingNoExistsVariables("OutputDataLayerName");
+  //delete several -> OK
+  variables.selectAll();
+  variables.del();
+  info.ok();
+  checkEmptyVarList ();
+
+  //postcondition
+  variables.cancel();
+  closeOneStr();
+  //closeOneStrWhithWarning();
+}
+function checkingExistsVariables(variable)
+{
+  if (variableExists(variable))Log.Checkpoint("После нажатия delet и в диалоговом окне No, переменная не удалилась.");
+  else Log.Warning("Переменная удалилась.");
+}
+function checkingNoExistsVariables(variable)
+{
+  if (!variableExists(variable))Log.Checkpoint("После нажатия delet и в диалоговом окне Ok, переменная удалилась.");
+  else Log.Warning("Переменная не удалилась.");
+}

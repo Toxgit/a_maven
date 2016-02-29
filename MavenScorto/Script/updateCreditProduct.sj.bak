@@ -1,0 +1,22 @@
+﻿//USEUNIT MainMenuHelper
+//USEUNIT OpenStrHelper
+//USEUNIT NodesNavigatorHelper
+//USEUNIT XtraInfo
+
+function updateCreditProduct()
+{
+  //initialization
+  var testStrategyName = "CreditProduct_DataSource.strat";//name стратегии для теста
+  var xtraInfo = new XtraInfo.XtraInfo();
+  //precondition
+  Log.Message("Тест update кредитного продукта");
+  //openOnlyNodesNav();
+  //openStrByName(testStrategyName);
+  
+  //test bodys 
+  updateToLastVersion("TestProduct");
+  xtraInfo.ok();
+  //postcondition
+  //closeOneStr();
+  //closeOneStrWhithWarning();  
+}

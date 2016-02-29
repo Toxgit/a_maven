@@ -1,0 +1,47 @@
+﻿//USEUNIT Settings
+//USEUNIT MainMenu
+//USEUNIT VariablesHelper
+//USEUNIT OpenStrHelper
+
+
+//данный тест проверяет фильтрацию переменных
+function filterListVariables()
+{
+  var testStrategyPath =  strLocation + "Main dialog area.strat";//путь к стратегии для теста
+  var menu = new MainMenuControl();
+  var variables = new Variables.Variables();
+  
+  Log.Message("Проверка фильтрацию переменных.");
+  openStrByPath(testStrategyPath);
+  menu.toVariables();
+  //фильтр поля Name
+  filterVariables("Name", "vard");
+  checkVarPosition("VarDate", 0);
+  checkVarPosition("VarDateCol", 1);
+  filterVariablesClear();
+  //фильтр поля Type
+  filterVariables("Type", "num");
+  checkVarPosition("VarInput", 0);
+  checkVarPosition("VarLocal", 2);
+  filterVariablesClear();
+  //фильтр поля Direction
+  filterVariables("Direction", "in");
+  checkVarPosition("VarInput", 0);
+  checkVarPosition("VarInputOutput", 1);
+  filterVariablesClear();
+  //фильтр поля Linked
+  filterVariables("Linked", "no");
+  checkVarPosition("VarInput", 4);
+  checkVarPosition("VarInputOutput", 5);
+  filterVariablesClear();
+  
+  //postcondition
+  variables.ok();
+  closeOneStr();
+}
+
+function verifySortOnlyForThisTest(variable,position) //проверка проходит по индексу переменной в конкретной стратегии
+{
+   if ( listFindVar(variable) == position) Log.Checkpoint("Отсортировано правильно");
+   else Log.Warning("Отсортировано неправильно("+variable+" не на "+position+" месте)");
+}

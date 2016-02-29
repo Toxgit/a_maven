@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="a_form">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="a_Form"/>
+					<Prp name="filename" type="S" value="Regions\a_Form.png"/>
+					<Prp name="id" type="S" value="{ECF0914A-1436-4032-969C-C3039FDB652E}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="8"/>
+				<Prp name="key" type="S" value="{ECF0914A-1436-4032-969C-C3039FDB652E}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="deleteseveralall">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="DeleteSeveralAll"/>
+					<Prp name="filename" type="S" value="Regions\DeleteSeveralAll.png"/>
+					<Prp name="id" type="S" value="{7892A851-63F3-45DC-88C1-6DA729877DC3}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="6"/>
+				<Prp name="key" type="S" value="{7892A851-63F3-45DC-88C1-6DA729877DC3}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="deleteseveralvarnolinkednoused">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="DeleteSeveralVarNolinkedNoused"/>
+					<Prp name="filename" type="S" value="Regions\DeleteSeveralVarNolinkedNoused.png"/>
+					<Prp name="id" type="S" value="{019CF0BF-4EA9-4E24-B7FE-7F6614B2203C}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="5"/>
+				<Prp name="key" type="S" value="{019CF0BF-4EA9-4E24-B7FE-7F6614B2203C}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="threesquare">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="ThreeSquare"/>
+					<Prp name="filename" type="S" value="Regions\ThreeSquare.png"/>
+					<Prp name="id" type="S" value="{7546C587-F288-404B-B6D8-29B685DA28FE}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="7"/>
+				<Prp name="key" type="S" value="{7546C587-F288-404B-B6D8-29B685DA28FE}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="validerror">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="ValidError"/>
+					<Prp name="filename" type="S" value="Regions\ValidError.png"/>
+					<Prp name="id" type="S" value="{D765D56E-E704-43BB-B1F5-947D4EB142EF}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="key" type="S" value="{D765D56E-E704-43BB-B1F5-947D4EB142EF}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="xtramessageboxlinked">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="XtraMessageBoxLinked"/>
+					<Prp name="filename" type="S" value="Regions\XtraMessageBoxLinked.png"/>
+					<Prp name="id" type="S" value="{235730E7-2602-44C4-A074-90C2702C5E74}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="key" type="S" value="{235730E7-2602-44C4-A074-90C2702C5E74}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="xtramessageboxlinkedused">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="XtraMessageBoxLinkedUsed"/>
+					<Prp name="filename" type="S" value="Regions\XtraMessageBoxLinkedUsed.png"/>
+					<Prp name="id" type="S" value="{7CC6E540-8027-421B-9464-725DC39864C0}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="4"/>
+				<Prp name="key" type="S" value="{7CC6E540-8027-421B-9464-725DC39864C0}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="xtramessageboxnolinkednoused">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="XtraMessageBoxNolinkedNoused"/>
+					<Prp name="filename" type="S" value="Regions\XtraMessageBoxNolinkedNoused.png"/>
+					<Prp name="id" type="S" value="{F350E37B-8B18-4B3C-B7FC-54420343FC5C}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="key" type="S" value="{F350E37B-8B18-4B3C-B7FC-54420343FC5C}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+			<Node name="xtramessageboxused">
+				<Node name="item data">
+					<Node name="settings"/>
+					<Prp name="caption" type="S" value="XtraMessageBoxUsed"/>
+					<Prp name="filename" type="S" value="Regions\XtraMessageBoxUsed.png"/>
+					<Prp name="id" type="S" value="{65BC9374-5F7D-485C-B3D1-0D375D53587F}"/>
+					<Prp name="signature" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+					<Prp name="update" type="B" value="0"/>
+					<Prp name="version" type="S" value="11.0"/>
+				</Node>
+				<Prp name="index" type="I" value="3"/>
+				<Prp name="key" type="S" value="{65BC9374-5F7D-485C-B3D1-0D375D53587F}"/>
+				<Prp name="pluginname" type="S" value="Stores"/>
+				<Prp name="type" type="S" value="{1FD256C1-604C-48A1-9990-9A9329139EC4}"/>
+				<Prp name="typename" type="S" value="Region"/>
+			</Node>
+		</Node>
+		<Node name="folders"/>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{DA6D7EF7-5B05-4735-AAF0-A85E47D47989}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

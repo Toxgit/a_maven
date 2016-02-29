@@ -1,0 +1,21 @@
+﻿//USEUNIT NodeHelper
+
+function linkUnlink()
+{
+  //initialization
+  var inputNode = new InputNode.InputNode();
+  
+  //precondition
+  Log.Message("Разлинковка переменных, линковка переменных");
+
+  //test bodys 
+  inputNode.toInputVar();
+  clickListRowByName(inputNode.listVar, "IPN");
+  inputNode.unlink();
+  checkValueOfField(inputNode.listVar, "IPN", "Linked To", "");
+  
+  clickListRowByName(inputNode.listStr, "IPN_");
+  inputNode.link();
+  checkValueOfField(inputNode.listVar, "IPN", "Linked To", "IPN_");
+  //postcondition
+}

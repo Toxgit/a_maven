@@ -1,0 +1,8 @@
+﻿//USEUNIT NodesContainer
+
+var nodesContainer = new NodesContainer.NodesContainer();
+
+function NodesContainer_refresh()
+{
+  nodesContainer.refresh();
+}

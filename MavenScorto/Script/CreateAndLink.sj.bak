@@ -1,0 +1,25 @@
+﻿//USEUNIT Test_Node_helper
+
+function CreateAndLink()
+{
+  CreateAndLink_node("IPN");
+  
+  //initialization
+  var inputNode = new Node.Node();
+  var inPrefix = new InputPrefix.InputPrefix();
+  
+  //precondition
+  Log.Message("Тест функционала Создать и слинковать Output Variables автоматически ");
+
+  //test bodys 
+  radiobuttonSetChecked(inputNode.alias.OutputVariables, 1);
+  clickListRowByName(inputNode.listVar, "IPN");
+  inputNode.unlink();
+  checkValueOfField(inputNode.listVar, "IPN", "Linked To", "");
+  
+  inputNode.createAndLink();
+  setPrefix("clear");
+  inPrefix.ok();
+  checkValueOfField(inputNode.listVar, "IPN", "Linked To", "IPN_");
+  //postcondition
+}

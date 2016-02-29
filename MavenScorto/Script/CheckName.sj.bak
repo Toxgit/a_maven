@@ -1,0 +1,54 @@
+﻿//USEUNIT MainMenuHelper2
+//USEUNIT NewStrategyHelper
+//USEUNIT ODTInitt
+//USEUNIT TestLogging
+//USEUNIT VariablesHelper
+
+
+function ODTinit(){ODTInitt.initddt("TestData.xls","Variables");Log.Message("Загружена новая структура ODT для теста по проверке direction переменных.");}
+
+function CheckName()
+{
+//структура ODT для тестов раздела Variables
+  ODTInitt.initddt("TestData.xls","Variables");
+  Log.Message("Загружена новая структура ODT для теста по проверке direction переменных.");
+  //precondition
+  var menu = new MainMenuControl();
+  var variables = new Variables.Variables();
+  BeginTestTransaction("Проверка Name переменной.");
+  //test body
+  createNewStr();
+  menu.toVariables();
+  
+  for(var i=0; i<ODT.Data.Variables.VariableCount; i++)
+  {
+    var item = ODT.Data.Variables.Variables(i).Value;
+    if (item.options == "check name")
+    {
+      logStep("Iteration "+i);
+      if(item.expectedResult == "Pass")
+      {
+        variables.add();
+        setVarNameLikeUser(item.name);
+        //сохранить...
+        variables.apply();
+        //Проверка...для тестов pass
+        if (variableExists(item.name))Log.Checkpoint("Переменная с Name = "+item.name+" создана.");
+        else Log.Warning("Переменная с Name = "+item.name+" не создана.");
+      }      
+      else
+      {
+      variables.add();
+      setVarNameLikeUser(item.name);
+      variables.apply();
+      if (verifyName_ErrorExists()) propertiesGridKeybord("[Esc]");
+      }
+    }
+  }
+  //postcondition
+  Log.PopLogFolder();
+  variables.ok();
+  closeOneStr();
+  EndTestTransaction();
+}
+

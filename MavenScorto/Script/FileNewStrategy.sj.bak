@@ -1,0 +1,10 @@
+﻿//USEUNIT MainMenu
+function NewStrategyTest()
+{
+  var menu = new MainMenuControl();
+  //menu.toFile();
+  
+  menu.toOpenStrategy();
+  
+  
+}

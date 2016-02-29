@@ -1,0 +1,1975 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="child list">
+			<Node name="_1_bulk_editing_constraint">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_1_Bulk_Editing_constraint.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{5BAC148E-F9EE-43F4-9BA0-EC854A21DE02}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_1_newstrategy_name">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_1_newStrategy_name.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{E1DE4B24-102B-4F8F-8CD8-80F08D675B9D}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_1_selectconstraint_filter">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_1_SelectConstraint_filter.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{4BA81D87-A594-44E9-9422-4885BCFF2299}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_10_newstrategy_saveall">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_10_newStrategy_saveAll.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{6D8F079B-BF3F-4E96-A875-41029F271A25}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_11_newstrategy_saveimg">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_11_newStrategy_saveImg.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{502314FD-FDA8-4313-B1FB-BD8B08F2FFCF}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_2_bulk_editing_unlink">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_2_Bulk_Editing_unlink.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{5023619E-E75F-4810-A6C7-4B8F1CF22E62}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_2_register_independent">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_2_Register_independent.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{9329B741-A2F5-4858-A884-82CA988E3579}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_2_selectconstraint_sort">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_2_SelectConstraint_sort.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{1F8E0ED3-C87B-4C3A-B98F-208D3D488559}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_3_bulk_editing_constraint_linked">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_3_Bulk_Editing_constraint_linked.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{375BF2DC-DF08-4836-83C5-F7F9A64A4E8D}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_3_selectconstraint_check_field">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_3_SelectConstraint_check_field.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{B74A1346-3062-45F6-84A9-2E979EB956C3}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_3_unique_name_strategy">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_3_unique_name_Strategy.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{7BB054E6-0E7A-48AE-979D-867AA2B5326C}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_4_newstrategy_cancel">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_4_newStrategy_cancel.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{B9D7DB5A-5693-486B-AC89-156C21BD80B0}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_4_selectconstraint_matchtypes">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_4_SelectConstraint_matchTypes.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{1C85C1F4-1DAB-4E84-8EA6-5E71A2C4AB9C}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_5_add_constraint">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_5_add_Constraint.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{3E1051C5-A3E0-4DCC-938F-77007C591DF5}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_5_newstrategy_hotkey_menu">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_5_newStrategy_hotkey_menu.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{5068C4BC-4980-48CB-B77E-957550FAFFFC}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_6_add_constraind_to_usedvariable">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_6_add_constraind_to_usedVariable.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{F62C7E97-E4CB-4980-B0CC-31B91C92E4E1}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_6_newstrategy_saveas_cancel">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_6_newStrategy_saveAs_cancel.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{2AE07444-A4D2-4C1C-91CE-639C872FEAE9}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_7_add_to_linkedvariable_presscansel">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_7_add_to_linkedVariable_pressCansel.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{B7074418-5631-4523-9A47-2F969D5C16D1}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_7_newstrategy_saveas_ok">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_7_newStrategy_saveAs_Ok.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{5013C059-E810-496B-8859-9FF61AA2651D}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_8_newstrategy_differentway_save">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_8_newStrategy_differentWay_save.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{7612B0D2-B032-4E41-9C11-4CD86B9F8196}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_8_to_manageconstraints">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_8_to_ManageConstraints.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{57712150-F56E-4347-BEA5-A807D42599A0}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="_9_newstrategy_differentway_saveas">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="_9_newStrategy_differentWay_saveAS.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{99EFFEFD-0A44-423D-8E14-E2D5384765B2}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="addnewnumeric">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="addNewNumeric.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{34BFD84D-D671-4615-8F93-D59BE278C38A}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="addnewstring">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="AddNewString.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{80CF1E63-DF48-4ACA-A21B-D2FCB722E824}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="addvariable">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="addVariable.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{978C293C-C8CF-4F51-9341-8448CC662488}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="appmanager">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="AppManager.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{1DC78A58-EAB5-41EE-81DC-CE5539E92A41}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="bulk_editing_linked">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Bulk_editing_Linked.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{6814BB7A-3288-42B8-B399-200D019D5429}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="cance_import">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Cance_Import.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{88F62834-9EC7-4D01-9BB8-803C22D25A7A}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="check_field_constraint">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="check_field_constraint.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{E5F3DCA8-DD14-4AA4-A8C7-25B07A710B61}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="check_linked_variables">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="check_linked_variables.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{CE656777-9093-42A9-932C-E00667F979CB}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="check_linked_variables_credprod">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="check_linked_variables_CredProd.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{175632CB-D0E3-4868-8315-D7989E8DF320}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="check_linked_variables_ds">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="check_linked_variables_DS.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{54C506A7-5A14-4141-A2AA-1E6EC23303D1}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="checkbox">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CheckBox.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{02DBEBA7-E3DA-4F5C-A5DC-06D4A8315AFC}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="checkdisable">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CheckDisable.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{3D71212E-5948-4B1D-BCE9-1C635D252956}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="constraint">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Constraint.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{C4BD3367-5496-4A4E-AAE0-158A68E6A6A0}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="constraintshelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ConstraintsHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{506AB2B6-C439-4EC4-8FA2-A58245EB2085}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="copy_editcopy">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Copy_editCopy.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{EC1E3BED-F1A8-4C74-93A0-7E7CF62C078D}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="copy_editoriginal">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Copy_editOriginal.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{FD0CD476-B247-4FF5-B291-FBB5EA0A8E26}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="copyconstraints">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CopyConstraints.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{3876EB9A-9D29-4B5C-BBD3-9877E48FA229}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="createandlink">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CreateAndLink.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{569459C6-1E99-4305-A4D6-737FDA56232E}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="createandlink_credprod">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CreateAndLink_CredProd.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{63C2A01F-656B-4676-A031-E512D5754B8D}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="createandlink_ds">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="CreateAndLink_DS.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{22EFA109-AE05-40A1-B08E-6531CC9B3446}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="debugvariables">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="DebugVariables.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{72255AEB-F3B7-4035-8ADF-AE78D922BA94}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="debugvariableshelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="DebugVariablesHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{294296EF-61BD-4AB9-9855-7AC17B13A103}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="default_set_of_open_views">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Default_set_of_open_views.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{CD29DA7F-EAA2-4E79-9994-14560D841065}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="delete_no">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Delete_No.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{05BA3B74-97B9-4110-A6D0-EE66316348B2}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="deleteusedconstraint">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="DeleteUsedConstraint.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{C0E959D9-3BEF-4C99-842A-B4D752DBFB28}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="duplicating_constraints">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Duplicating_constraints.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{C7633E42-5618-445C-AE46-85D32BA66C1C}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="file">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="File.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{0604D475-D5C8-49C6-B962-8D4060E3A570}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="filter">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Filter.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{5EBFC84C-F35B-423F-9586-6A6089B88A24}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="filterconstraint">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="FilterConstraint.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{00150D82-F0A6-4177-868D-05C63B7E9E13}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="from_file">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="From_file.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{B00F059D-2582-436D-AA7D-A510F9EB4CC5}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="from_server">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="From_server.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{524B7D3D-0E27-41EC-A92B-89C22188DE8F}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="from_server_earlierstrategy">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="From_server_EarlierStrategy.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{57B7AE55-D6DC-4806-9409-DBFE39515A67}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="getversionnamestrategy">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="getVersionNameStrategy.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{7874F9E5-9621-41D0-A4F8-24C1BDE5445B}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="importconstraint">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ImportConstraint.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{F45C2E3F-CD21-4C31-894E-2A0C5AF2ECE5}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="importconstrainthelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ImportConstraintHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{29883CB1-F86F-4495-BC44-CC9AF37CB8D1}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="initialization_ddt">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="initialization_DDT.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{BA9E9CC3-BB84-4591-9846-1DB6D03F1DA2}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="inputprefix">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="InputPrefix.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{FCA9BFD4-284B-4F46-A5F8-4E8D2FBF7628}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="isnotdonevalues_numericconstraint">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="isnotDoneValues_numericConstraint.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{E9A6883C-5A07-41E0-A76D-439058B6CC50}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="link_unlink_autolink_credprod">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Link_Unlink_Autolink_CredProd.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{6A1E9328-41FD-4827-B181-396B48036D38}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="linkunlink_autolink">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="LinkUnlink_Autolink.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{46085F74-78DE-4714-BE47-250238AC028B}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="linkunlink_autolink_ds">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="LinkUnlink_autolink_DS.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{3F8B9706-FBAC-4BDB-B0F8-7B0EE24B7063}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="listview">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ListView.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{E7061515-2401-4059-B03C-E5636BCEAE19}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="logging">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Logging.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{21D6BCD4-DD89-43CF-83A5-D5BFD3820DCC}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="mainform">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="MainForm.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{85C487B1-479D-425B-BA48-3C94A7A436F3}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="mainmenu">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="MainMenu.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{8C52EBB1-DF38-4793-AA0A-B8DBEB61EB14}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="mainmenuhelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="MainMenuHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{B014176C-AC7B-4475-BE07-E5717C763CF4}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="match">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Match.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{98326327-FA82-4CAE-9DCD-8A69D3576CF9}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="maven">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Maven.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{B3042635-0F00-4338-95BB-5F3E51A733C0}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="mavenhelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="MavenHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{1C74CD3F-7F9F-4991-B878-9D0C37E09186}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="menu">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Menu.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{F358CF94-C62D-422C-A3A6-5FC47B0FB30B}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="name__unique_register_s">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Name__unique_register_s.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{EA76A74E-10DB-4199-95A7-9F3239B051EA}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="name_constraint">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Name_constraint.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{D492989A-941F-4818-A00E-ABF411E153DB}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="newstrategy">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="NewStrategy.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{3319440D-D547-4F25-857C-317FEA604956}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="newstrategyhelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="NewStrategyHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{D7555D11-75D7-4B16-8919-3B94FF4A5DD6}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="node">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Node.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{D9BBD96B-FE33-4A6C-8A9C-FA6CF9B775B0}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="nodehelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="NodeHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{76D5A259-CDB6-4B1B-9330-2543151C56FE}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="nodescontainer">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="NodesContainer.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{43086704-7A35-416C-A4FB-1C7B1BC252FE}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="nodescontainerhelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="NodesContainerHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{E44226F5-6891-4129-9879-C9E46A2B15CD}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="nodesnavigator">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="NodesNavigator.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{BF73103D-4F6A-4ED5-BD6D-3A1B0D5B25FB}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="nodesnavigatorhelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="NodesNavigatorHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{820A65DA-5863-4F09-A283-889DF5C82D0C}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="odtinitt">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ODTInitt.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{7F02FA4A-AB36-48E8-9E20-DA20315591F2}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="okandcancelbuttons">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OkAndCancelButtons.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{2C11F84C-C056-471C-A885-B01875988001}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="open_dafaultsetofviews">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="open_dafaultSetOfViews.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{92C0D1AA-8037-4720-9A32-1C2F14456645}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="openstrategy">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OpenStrategy.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{66E3A4CB-2919-4B4B-9CAB-8ADEF0AC4044}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="openstrategy_cancel">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OpenStrategy_cancel.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{758D5254-5B8B-4241-B921-06AAB307D142}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="openstrategy_differentwayopen">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OpenStrategy_differentWayOpen.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{FD273F05-F60B-4B6F-B221-4BD5FC8DAF41}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="openstrategy_save">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OpenStrategy_save.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{7AB31039-E64B-4646-9C27-527CB2D74260}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="openstrategy_saveall">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OpenStrategy_saveAll.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{F92E0560-0D56-4EA4-957F-434D9BC93981}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="openstrategy_saveas">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OpenStrategy_saveAs.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{C2E36F08-2515-4674-AB77-DC5B7330B300}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="openstrategyremote">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OpenStrategyRemote.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{FE2191B7-B507-4E01-A4DB-A085797286D8}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="openstrategyremote_cancel">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OpenStrategyRemote_cancel.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{12663828-321A-46CD-87FE-BB4F7F3D27AF}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="openstrategyremote_differentwayopen">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OpenStrategyRemote_differentWayOpen.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{8C8A3690-A4E2-4092-A58C-EE9231016666}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="openstrategyremote_earlierversion">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OpenStrategyRemote_earlierVersion.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{395BF7F4-1EDE-4B4B-A359-62958E6A753F}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="openstrategyremote_save">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OpenStrategyRemote_save.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{943B4AAB-E8E9-4416-B645-F2DE1DC99A2C}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="openstrategyremote_saveall">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OpenStrategyRemote_saveAll.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{B0EDC96E-83DD-4A9A-B287-BD70DCB01AFD}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="openstrategyremote_saveas">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OpenStrategyRemote_saveAs.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{4D464D1A-F43D-4FB1-B7D3-3034AF294456}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="openstrategyremotehelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OpenStrategyRemoteHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{ECD3689B-D570-4607-8AF0-83372A040495}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="openstrhelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="OpenStrHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{E18AD91B-2EED-4E8C-958C-7E2FF76F3248}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="passing_node">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="passing_node.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{11FC6AC0-6ACE-41D2-A57A-5F69365BD3D2}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="popup_importconstraint">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Popup_importConstraint.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{1C8526C6-20F7-46FB-B0BF-83ACF8DDF2D0}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="print">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Print.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{D232684D-A6DF-46C1-B6FD-67914D6EA6A5}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="printpreview">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="PrintPreview.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{3A7639FA-BE42-45CB-9C34-1BA5E81D4A58}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="property_check">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Property_Check.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{D369F5FA-37F7-4C3B-B838-4F0542591DB6}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="property_checkdescription">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Property_checkDescription.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{DAA73B02-53D5-4D33-B0E2-44FFA09B74B0}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="property_checkname">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Property_checkName.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{A76E5869-A40B-4CA9-9518-73489FC00518}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="property_constraint">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Property_constraint.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{546FCB03-A3DA-400D-9196-7BB8728391FD}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="property_direction">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Property_direction.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{213FDCB8-7BE2-4D48-B195-D8A0FA4EC52B}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="property_initialvalue">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Property_InitialValue.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{07F1C926-38D0-41C3-AE13-B073974872D9}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="restartapp">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="restartApp.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{FD849A6F-BB4F-48AD-A65C-636E3DB4F55A}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="selectall">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="SelectAll.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{AAEB1139-8489-4890-BABF-37C851F24F2C}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="selectconstraint">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="SelectConstraint.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{EDA8778F-5D95-44D0-9E15-43389F1E48DC}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="selectconstrainthelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="SelectConstraintHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{06F24CDF-6C3E-47B3-A291-355C7050BFDF}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="settings">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Settings.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{B351419D-7CB2-4CAB-9DEC-399C7916FB74}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="sort">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Sort.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{A8818756-00BA-46BC-A36E-030AAB778B20}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="sort_constraint_value_numeric">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="sort_constraint_value_numeric.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{0D6F1595-AA96-4E79-B52D-83785F79F004}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="sort_constraint_value_string">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="sort_constraint_value_string.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{9892DB04-0B00-46DB-9C99-80AB8C0761EC}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="sortconstraint">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="SortConstraint.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{BA76EE07-669D-4395-9FA1-23CD6AD5C6C9}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="startapp">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="startApp.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{97C9EED5-7CA7-43DC-ACFA-C02C0A74E223}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="stopapp">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="stopApp.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{4DDFB474-6DCA-4DCE-AA77-82F41A296DB2}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="strategyform">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="StrategyForm.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{0D166F8C-5772-4CBE-A909-F3481C82AD34}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="tabnavigation">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TabNavigation.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{B3950AA9-74BA-4C01-A1F4-FEF5226923DA}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="tabnavigation_credprod">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TabNavigation_CredProd.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{8F2CEE85-2ADF-48A0-BFB6-2F6C1A757218}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="tabnavigation_ds">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="tabNavigation_DS.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{FA58CB91-DEB8-49DB-9DA9-0E9491152CB0}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="tbd_newstrategy_print">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TBD_newStrategy_print.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{90EFFE1F-6DA7-4D4F-9581-543373DBFC53}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="tbd_newstrategy_printpreview">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TBD_newStrategy_printPreview.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{89BE5564-DBD4-4E54-BF12-30C9909B3B2A}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="test_node_helper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Test_Node_helper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{60AE2CFA-2399-4109-A82B-B0F9D7272BEA}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="testlogging">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TestLogging.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{245EED65-3432-47D0-849F-75D195BAA181}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="textbox">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TextBox.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{DD9F925A-3FA3-46CB-8F31-83E0BE903EAA}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="toolbar">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Toolbar.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{7D212AF9-5366-4226-9CA4-663E257E48C0}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="toolbarhelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ToolbarHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{A098280C-2FFD-4EFB-B689-F67A7A0BFCA5}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="toolbartest">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="ToolbarTest.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{FB81FCC9-BCF9-4F91-ACAF-9C6B569583E8}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="tooltiphelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="TooltipHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{62A2759D-6F43-4AE4-9692-B15B4D58BDA2}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="unit2">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Unit2.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{2B0B178A-F84C-42EC-83B6-98DE59370E94}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="unknown_nodes_threeesquare">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="unknown_Nodes_ThreeeSquare.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{7FFE8417-6A40-41C4-A4C9-C214082EE326}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="update_to_last_version">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="update_To_Last_Version.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{591B2594-F8DB-461F-8FF5-B21EAA9C0A78}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="updatecpandds">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="updateCPAndDS.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{BE226AB5-4C94-468E-A7AB-7ACD9E65AA73}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="values_stringconstraint">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Values_stringConstraint.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{B08466B6-7F16-4608-8B29-1D506A4F8AAD}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="variables">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Variables.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{C649C28F-C753-4B0A-8673-E738FA350F96}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="variables_copy">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Variables_Copy.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{6C190898-618C-4A81-859A-ACB684E5E2C7}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="variables_copyeditcheckoriginal">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Variables_CopyEditCheckOriginal.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{CFE0C298-BF5D-44F0-B548-2A3BEAA1D612}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="variables_copyeditoriginalcopy">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Variables_CopyEditOriginalCopy.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{CF982E37-1032-414C-9F4B-3857A3F43E2B}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="variables_delete">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Variables_delete.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{7E632A5F-BE5C-4F28-B5B8-D352C169C637}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="variables_filter">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Variables_filter.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{11BD8EA6-5212-49F8-80DE-C18E2F746D31}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="variables_sort">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Variables_sort.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{8711B005-7498-449F-9255-552B00D8F213}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="variables_uselectselectall">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="Variables_uselectSelectAll.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{E2FF92B2-0D08-4088-85C8-17774113CE99}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="variableshelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="VariablesHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{E1F76E51-D761-4D0F-8964-17A14E5D6334}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="windowconfirmation">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WindowConfirmation.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{F8DDE073-D54C-480E-8059-959B5FB156B8}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="windowerror">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WindowError.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{36C005D0-A725-43B5-A464-DC7250662C12}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="windowerror2">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WindowError2.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{3BF81966-5D79-4FAD-A3CE-F8B4C1EAA1B9}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="windowerrorhelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WindowErrorHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{BB028D10-8656-41DC-89DE-7BDE70CC5991}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="windowhelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WindowHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{83D795C9-C75B-44F0-981B-BCCE363FFEE6}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="windowinformation">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WindowInformation.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{926EFA1B-8D90-4D64-B148-36510F62EB7D}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="windowopenremote">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WindowOpenRemote.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{067B9BA9-30EF-4B40-A631-C0CFBEF57DA5}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="windowsaveas">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WindowSaveAs.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{B62C3E1A-0595-4BB1-9B16-165E09113022}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="windowsaveashelper">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WindowSaveAsHelper.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{16A25347-002E-4A1C-A0A1-36EAF7704642}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="windowwarning">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="WindowWarning.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{E40DADF5-6440-48A3-950C-1EF19F8DF618}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="xtraerror">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="XtraError.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{CCB7C4A2-4DF4-4D37-9C80-7306348A4734}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="xtrainfo">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="XtraInfo.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{F7673AD9-57DD-496B-9143-B9BD67FF0DB8}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="z_old_newstrategytest">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="z_old_NewStrategyTest.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{445DF973-52DC-4468-B99F-47EE43FD4B34}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+			<Node name="z_openstrategytest">
+				<Node name="item data">
+					<Prp name="relpath" type="S" value="z_OpenStrategyTest.sj"/>
+				</Node>
+				<Prp name="key" type="S" value="{C0439612-E1A8-43FD-86CD-8619A358F224}"/>
+				<Prp name="pluginname" type="S" value="Script"/>
+				<Prp name="type" type="S" value="{291CAE9C-4D20-4F33-8B5F-D48B587F3D65}"/>
+				<Prp name="typename" type="S" value="Script Unit"/>
+			</Node>
+		</Node>
+		<Node name="folders">
+			<Node name="control_________________">
+				<Node name="folders"/>
+				<Node name="references">
+					<Prp name="{02dbeba7-e3da-4f5c-a5dc-06d4a8315afc}" type="S" value=""/>
+					<Prp name="{3d71212e-5948-4b1d-bce9-1c635d252956}" type="S" value=""/>
+					<Prp name="{98326327-fa82-4cae-9dcd-8a69d3576cf9}" type="S" value=""/>
+					<Prp name="{dd9f925a-3fa3-46cb-8f31-83e0be903eaa}" type="S" value=""/>
+					<Prp name="{e7061515-2401-4059-b03c-e5636bceae19}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="Control_________________"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+			<Node name="forms__________________">
+				<Node name="folders">
+					<Node name="constraint">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{1c8526c6-20f7-46fb-b0bf-83acf8ddf2d0}" type="S" value=""/>
+							<Prp name="{c4bd3367-5496-4a4e-aae0-158a68e6a6a0}" type="S" value=""/>
+							<Prp name="{f45c2e3f-cd21-4c31-894e-2a0c5af2ece5}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Constraint"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="menu">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{0604d475-d5c8-49c6-b962-8d4060e3a570}" type="S" value=""/>
+							<Prp name="{7d212af9-5366-4226-9ca4-663e257e48c0}" type="S" value=""/>
+							<Prp name="{8c52ebb1-df38-4793-aa0a-b8dbeb61eb14}" type="S" value=""/>
+							<Prp name="{f358cf94-c62d-422c-a3a6-5fc47b0fb30b}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Menu"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="nodes">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{d9bbd96b-fe33-4a6c-8a9c-fa6cf9b775b0}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Nodes"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="print">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{3a7639fa-be42-45cb-9c34-1ba5e81d4a58}" type="S" value=""/>
+							<Prp name="{d232684d-a6df-46c1-b6fd-67914d6ea6a5}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Print"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="strategy">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{067b9ba9-30ef-4b40-a631-c0cfbef57da5}" type="S" value=""/>
+							<Prp name="{0d166f8c-5772-4cbe-a909-f3481c82ad34}" type="S" value=""/>
+							<Prp name="{3319440d-d547-4f25-857c-317fea604956}" type="S" value=""/>
+							<Prp name="{66e3a4cb-2919-4b4b-9cab-8adef0ac4044}" type="S" value=""/>
+							<Prp name="{85c487b1-479d-425b-ba48-3c94a7a436f3}" type="S" value=""/>
+							<Prp name="{b62c3e1a-0595-4bb1-9b16-165e09113022}" type="S" value=""/>
+							<Prp name="{fe2191b7-b507-4e01-a4db-a085797286d8}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Strategy"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="variables">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{c649c28f-c753-4b0a-8673-e738fa350f96}" type="S" value=""/>
+							<Prp name="{eda8778f-5d95-44d0-9e15-43389f1e48dc}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Variables"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="views">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{43086704-7a35-416c-a4fb-1c7b1bc252fe}" type="S" value=""/>
+							<Prp name="{72255aeb-f3b7-4035-8adf-ae78d922ba94}" type="S" value=""/>
+							<Prp name="{bf73103d-4f6a-4ed5-bd6d-3a1b0d5b25fb}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Views"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="windowserrors">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{36c005d0-a725-43b5-a464-dc7250662c12}" type="S" value=""/>
+							<Prp name="{3bf81966-5d79-4fad-a3ce-f8b4c1eaa1b9}" type="S" value=""/>
+							<Prp name="{926efa1b-8d90-4d64-b148-36510f62eb7d}" type="S" value=""/>
+							<Prp name="{ccb7c4a2-4df4-4d37-9c80-7306348a4734}" type="S" value=""/>
+							<Prp name="{e40dadf5-6440-48a3-950c-1ef19f8df618}" type="S" value=""/>
+							<Prp name="{f7673ad9-57dd-496b-9143-b9bd67ff0db8}" type="S" value=""/>
+							<Prp name="{f8dde073-d54c-480e-8059-959b5fb156b8}" type="S" value=""/>
+							<Prp name="{fca9bfd4-284b-4f46-a5f8-4e8d2fbf7628}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="WindowsErrors"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+				</Node>
+				<Node name="references">
+					<Prp name="{1dc78a58-eab5-41ee-81dc-ce5539e92a41}" type="S" value=""/>
+					<Prp name="{b3042635-0f00-4338-95bb-5f3e51a733c0}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="Forms__________________"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+			<Node name="helpers_________________">
+				<Node name="folders">
+					<Node name="application">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{4ddfb474-6dca-4dce-aa77-82f41a296db2}" type="S" value=""/>
+							<Prp name="{7874f9e5-9621-41d0-a4f8-24c1bde5445b}" type="S" value=""/>
+							<Prp name="{97c9eed5-7ca7-43dc-acfa-c02c0a74e223}" type="S" value=""/>
+							<Prp name="{ba9e9cc3-bb84-4591-9846-1db6d03f1da2}" type="S" value=""/>
+							<Prp name="{fd849a6f-bb4f-48ad-a65c-636e3db4f55a}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Application"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="constraint">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{29883cb1-f86f-4495-bc44-cc9af37cb8d1}" type="S" value=""/>
+							<Prp name="{506ab2b6-c439-4ec4-8fa2-a58245eb2085}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Constraint"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="log">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{21d6bcd4-dd89-43cf-83a5-d5bfd3820dcc}" type="S" value=""/>
+							<Prp name="{245eed65-3432-47d0-849f-75d195baa181}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Log"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="menu">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{a098280c-2ffd-4efb-b689-f67a7a0bfca5}" type="S" value=""/>
+							<Prp name="{b014176c-ac7b-4475-be07-e5717c763cf4}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Menu"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="nodes">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{60ae2cfa-2399-4109-a82b-b0f9d7272bea}" type="S" value=""/>
+							<Prp name="{76d5a259-cdb6-4b1b-9330-2543151c56fe}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Nodes"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="set">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{7f02fa4a-ab36-48e8-9e20-da20315591f2}" type="S" value=""/>
+							<Prp name="{b351419d-7cb2-4cab-9dec-399c7916fb74}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Set"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="strategy">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{16a25347-002e-4a1c-a0a1-36eaf7704642}" type="S" value=""/>
+							<Prp name="{d7555d11-75d7-4b16-8919-3b94ff4a5dd6}" type="S" value=""/>
+							<Prp name="{e18ad91b-2eed-4e8c-958c-7e2ff76f3248}" type="S" value=""/>
+							<Prp name="{ecd3689b-d570-4607-8af0-83372a040495}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Strategy"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="variables">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{06f24cdf-6c3e-47b3-a291-355c7050bfdf}" type="S" value=""/>
+							<Prp name="{e1f76e51-d761-4d0f-8964-17a14e5d6334}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Variables"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="views">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{294296ef-61bd-4ab9-9855-7ac17b13a103}" type="S" value=""/>
+							<Prp name="{820a65da-5863-4f09-a283-889df5c82d0c}" type="S" value=""/>
+							<Prp name="{e44226f5-6891-4129-9879-c9e46a2b15cd}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Views"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+				</Node>
+				<Node name="references">
+					<Prp name="{1c74cd3f-7f9f-4991-b878-9d0c37e09186}" type="S" value=""/>
+					<Prp name="{62a2759d-6f43-4ae4-9692-b15b4d58bda2}" type="S" value=""/>
+					<Prp name="{83d795c9-c75b-44f0-981b-bcce363ffee6}" type="S" value=""/>
+					<Prp name="{bb028d10-8656-41dc-89de-7bde70cc5991}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="Helpers_________________"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+			<Node name="tests___________________">
+				<Node name="folders">
+					<Node name="1_new_strategy">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{2ae07444-a4d2-4c1c-91ce-639c872feae9}" type="S" value=""/>
+							<Prp name="{5013c059-e810-496b-8859-9ff61aa2651d}" type="S" value=""/>
+							<Prp name="{502314fd-fda8-4313-b1fb-bd8b08f2ffcf}" type="S" value=""/>
+							<Prp name="{5068c4bc-4980-48cb-b77e-957550fafffc}" type="S" value=""/>
+							<Prp name="{6d8f079b-bf3f-4e96-a875-41029f271a25}" type="S" value=""/>
+							<Prp name="{7612b0d2-b032-4e41-9c11-4cd86b9f8196}" type="S" value=""/>
+							<Prp name="{7bb054e6-0e7a-48ae-979d-867aa2b5326c}" type="S" value=""/>
+							<Prp name="{89be5564-dbd4-4e54-bf12-30c9909b3b2a}" type="S" value=""/>
+							<Prp name="{90effe1f-6da7-4d4f-9581-543373dbfc53}" type="S" value=""/>
+							<Prp name="{9329b741-a2f5-4858-a884-82ca988e3579}" type="S" value=""/>
+							<Prp name="{99effefd-0a44-423d-8e14-e2d5384765b2}" type="S" value=""/>
+							<Prp name="{b9d7db5a-5693-486b-ac89-156c21bd80b0}" type="S" value=""/>
+							<Prp name="{e1de4b24-102b-4f8f-8cd8-80f08d675b9d}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="1_New_strategy"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="2_open_strategy">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{12663828-321a-46cd-87fe-bb4f7f3d27af}" type="S" value=""/>
+							<Prp name="{395bf7f4-1ede-4b4b-a359-62958e6a753f}" type="S" value=""/>
+							<Prp name="{4d464d1a-f43d-4fb1-b7d3-3034af294456}" type="S" value=""/>
+							<Prp name="{758d5254-5b8b-4241-b921-06aab307d142}" type="S" value=""/>
+							<Prp name="{7ab31039-e64b-4646-9c27-527cb2d74260}" type="S" value=""/>
+							<Prp name="{8c8a3690-a4e2-4092-a58c-ee9231016666}" type="S" value=""/>
+							<Prp name="{943b4aab-e8e9-4416-b645-f2de1dc99a2c}" type="S" value=""/>
+							<Prp name="{b0edc96e-83dd-4a9a-b287-bd70dcb01afd}" type="S" value=""/>
+							<Prp name="{c2e36f08-2515-4674-ab77-dc5b7330b300}" type="S" value=""/>
+							<Prp name="{f92e0560-0d56-4ea4-957f-434d9bc93981}" type="S" value=""/>
+							<Prp name="{fd273f05-f60b-4b6f-b221-4bd5fc8daf41}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="2_Open_strategy"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="3_variables">
+						<Node name="folders">
+							<Node name="bulkediting">
+								<Node name="folders"/>
+								<Node name="references">
+									<Prp name="{375bf2dc-df08-4836-83c5-f7f9a64a4e8d}" type="S" value=""/>
+									<Prp name="{5023619e-e75f-4810-a6c7-4b8f1cf22e62}" type="S" value=""/>
+									<Prp name="{5bac148e-f9ee-43f4-9ba0-ec854a21de02}" type="S" value=""/>
+									<Prp name="{6814bb7a-3288-42b8-b399-200d019d5429}" type="S" value=""/>
+								</Node>
+								<Prp name="caption" type="S" value="BulkEditing"/>
+								<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+								<Prp name="moniker" type="S" value=""/>
+							</Node>
+							<Node name="buttons">
+								<Node name="folders"/>
+								<Node name="references">
+									<Prp name="{7e632a5f-be5c-4f28-b5b8-d352c169c637}" type="S" value=""/>
+									<Prp name="{e2ff92b2-0d08-4088-85c8-17774113ce99}" type="S" value=""/>
+								</Node>
+								<Prp name="caption" type="S" value="Buttons"/>
+								<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+								<Prp name="moniker" type="S" value=""/>
+							</Node>
+							<Node name="copy">
+								<Node name="folders"/>
+								<Node name="references">
+									<Prp name="{6c190898-618c-4a81-859a-acb684e5e2c7}" type="S" value=""/>
+									<Prp name="{cf982e37-1032-414c-9f4b-3857a3f43e2b}" type="S" value=""/>
+									<Prp name="{cfe0c298-bf5d-44f0-b548-2a3beaa1d612}" type="S" value=""/>
+								</Node>
+								<Prp name="caption" type="S" value="Copy"/>
+								<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+								<Prp name="moniker" type="S" value=""/>
+							</Node>
+							<Node name="property">
+								<Node name="folders"/>
+								<Node name="references">
+									<Prp name="{07f1c926-38d0-41c3-ae13-b073974872d9}" type="S" value=""/>
+									<Prp name="{213fdcb8-7be2-4d48-b195-d8a0fa4ec52b}" type="S" value=""/>
+									<Prp name="{546fcb03-a3da-400d-9196-7bb8728391fd}" type="S" value=""/>
+									<Prp name="{a76e5869-a40b-4ca9-9518-73489fc00518}" type="S" value=""/>
+									<Prp name="{d369f5fa-37f7-4c3b-b838-4f0542591db6}" type="S" value=""/>
+									<Prp name="{daa73b02-53d5-4d33-b0e2-44ffa09b74b0}" type="S" value=""/>
+								</Node>
+								<Prp name="caption" type="S" value="Property"/>
+								<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+								<Prp name="moniker" type="S" value=""/>
+							</Node>
+							<Node name="select constraint">
+								<Node name="folders"/>
+								<Node name="references">
+									<Prp name="{1c85c1f4-1dab-4e84-8ea6-5e71a2c4ab9c}" type="S" value=""/>
+									<Prp name="{1f8e0ed3-c87b-4c3a-b98f-208d3d488559}" type="S" value=""/>
+									<Prp name="{3e1051c5-a3e0-4dcc-938f-77007c591df5}" type="S" value=""/>
+									<Prp name="{4ba81d87-a594-44e9-9422-4885bcff2299}" type="S" value=""/>
+									<Prp name="{57712150-f56e-4347-bea5-a807d42599a0}" type="S" value=""/>
+									<Prp name="{b7074418-5631-4523-9a47-2f969d5c16d1}" type="S" value=""/>
+									<Prp name="{b74a1346-3062-45f6-84a9-2e979eb956c3}" type="S" value=""/>
+									<Prp name="{f62c7e97-e4cb-4980-b0cc-31b91c92e4e1}" type="S" value=""/>
+								</Node>
+								<Prp name="caption" type="S" value="Select Constraint"/>
+								<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+								<Prp name="moniker" type="S" value=""/>
+							</Node>
+							<Node name="sortfilter">
+								<Node name="folders"/>
+								<Node name="references">
+									<Prp name="{11bd8ea6-5212-49f8-80de-c18e2f746d31}" type="S" value=""/>
+									<Prp name="{8711b005-7498-449f-9255-552b00d8f213}" type="S" value=""/>
+								</Node>
+								<Prp name="caption" type="S" value="SortFilter"/>
+								<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+								<Prp name="moniker" type="S" value=""/>
+							</Node>
+						</Node>
+						<Node name="references">
+							<Prp name="{978c293c-c8cf-4f51-9341-8448cc662488}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="3_Variables"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="constraints">
+						<Node name="folders">
+							<Node name="buttons">
+								<Node name="folders"/>
+								<Node name="references">
+									<Prp name="{2c11f84c-c056-471c-a885-b01875988001}" type="S" value=""/>
+									<Prp name="{aaeb1139-8489-4890-babf-37c851f24f2c}" type="S" value=""/>
+								</Node>
+								<Prp name="caption" type="S" value="Buttons"/>
+								<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+								<Prp name="moniker" type="S" value=""/>
+							</Node>
+							<Node name="copy">
+								<Node name="folders"/>
+								<Node name="references">
+									<Prp name="{3876eb9a-9d29-4b5c-bbd3-9877e48fa229}" type="S" value=""/>
+									<Prp name="{ec1e3bed-f1a8-4c74-93a0-7e7cf62c078d}" type="S" value=""/>
+									<Prp name="{fd0cd476-b247-4ff5-b291-fbb5ea0a8e26}" type="S" value=""/>
+								</Node>
+								<Prp name="caption" type="S" value="Copy"/>
+								<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+								<Prp name="moniker" type="S" value=""/>
+							</Node>
+							<Node name="delete">
+								<Node name="folders"/>
+								<Node name="references">
+									<Prp name="{05ba3b74-97b9-4110-a6d0-ee66316348b2}" type="S" value=""/>
+									<Prp name="{c0e959d9-3bef-4c99-842a-b4d752dbfb28}" type="S" value=""/>
+								</Node>
+								<Prp name="caption" type="S" value="Delete"/>
+								<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+								<Prp name="moniker" type="S" value=""/>
+							</Node>
+							<Node name="import dialog">
+								<Node name="folders"/>
+								<Node name="references">
+									<Prp name="{524b7d3d-0e27-41ec-a92b-89c22188de8f}" type="S" value=""/>
+									<Prp name="{57b7ae55-d6dc-4806-9409-dbfe39515a67}" type="S" value=""/>
+									<Prp name="{5ebfc84c-f35b-423f-9586-6a6089b88a24}" type="S" value=""/>
+									<Prp name="{88f62834-9ec7-4d01-9bb8-803c22d25a7a}" type="S" value=""/>
+									<Prp name="{a8818756-00ba-46bc-a36e-030aab778b20}" type="S" value=""/>
+									<Prp name="{b00f059d-2582-436d-aa7d-a510f9eb4cc5}" type="S" value=""/>
+									<Prp name="{c7633e42-5618-445c-ae46-85d32ba66c1c}" type="S" value=""/>
+								</Node>
+								<Prp name="caption" type="S" value="Import dialog"/>
+								<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+								<Prp name="moniker" type="S" value=""/>
+							</Node>
+							<Node name="properties">
+								<Node name="folders"/>
+								<Node name="references">
+									<Prp name="{b08466b6-7f16-4608-8b29-1d506a4f8aad}" type="S" value=""/>
+									<Prp name="{d492989a-941f-4818-a00e-abf411e153db}" type="S" value=""/>
+									<Prp name="{e9a6883c-5a07-41e0-a76d-439058b6cc50}" type="S" value=""/>
+									<Prp name="{ea76a74e-10db-4199-95a7-9f3239b051ea}" type="S" value=""/>
+								</Node>
+								<Prp name="caption" type="S" value="Properties"/>
+								<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+								<Prp name="moniker" type="S" value=""/>
+							</Node>
+							<Node name="sort_filter">
+								<Node name="folders"/>
+								<Node name="references">
+									<Prp name="{00150d82-f0a6-4177-868d-05c63b7e9e13}" type="S" value=""/>
+									<Prp name="{0d6f1595-aa96-4e79-b52d-83785f79f004}" type="S" value=""/>
+									<Prp name="{9892db04-0b00-46db-9c99-80ab8c0761ec}" type="S" value=""/>
+									<Prp name="{ba76ee07-669d-4395-9fa1-23cd6ad5c6c9}" type="S" value=""/>
+								</Node>
+								<Prp name="caption" type="S" value="Sort_Filter"/>
+								<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+								<Prp name="moniker" type="S" value=""/>
+							</Node>
+						</Node>
+						<Node name="references">
+							<Prp name="{34bfd84d-d671-4615-8f93-d59be278c38a}" type="S" value=""/>
+							<Prp name="{80cf1e63-df48-4aca-a21b-d2fcb722e824}" type="S" value=""/>
+							<Prp name="{e5f3dca8-dd14-4aa4-a8c7-25b07a710b61}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Constraints"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="credit product">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{11fc6ac0-6ace-41d2-a57a-5f69365bd3d2}" type="S" value=""/>
+							<Prp name="{175632cb-d0e3-4868-8315-d7989e8df320}" type="S" value=""/>
+							<Prp name="{63c2a01f-656b-4676-a031-e512d5754b8d}" type="S" value=""/>
+							<Prp name="{6a1e9328-41fd-4827-b181-396b48036d38}" type="S" value=""/>
+							<Prp name="{8f2cee85-2adf-48a0-bfb6-2f6c1a757218}" type="S" value=""/>
+							<Prp name="{be226ab5-4c94-468e-a7ab-7acd9e65aa73}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Credit Product"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="datasource">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{22efa109-ae05-40a1-b08e-6531cc9b3446}" type="S" value=""/>
+							<Prp name="{3f8b9706-fbac-4bdb-b0f8-7b0ee24b7063}" type="S" value=""/>
+							<Prp name="{54c506a7-5a14-4141-a2aa-1e6ec23303d1}" type="S" value=""/>
+							<Prp name="{fa58cb91-deb8-49db-9da9-0e9491152cb0}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="DataSource"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+					<Node name="nodes">
+						<Node name="folders"/>
+						<Node name="references">
+							<Prp name="{46085f74-78de-4714-be47-250238ac028b}" type="S" value=""/>
+							<Prp name="{569459c6-1e99-4305-a4d6-737fda56232e}" type="S" value=""/>
+							<Prp name="{591b2594-f8db-461f-8ff5-b21eaa9c0a78}" type="S" value=""/>
+							<Prp name="{7ffe8417-6a40-41c4-a4c9-c214082ee326}" type="S" value=""/>
+							<Prp name="{b3950aa9-74ba-4c01-a1f4-fef5226923da}" type="S" value=""/>
+							<Prp name="{ce656777-9093-42a9-932c-e00667f979cb}" type="S" value=""/>
+						</Node>
+						<Prp name="caption" type="S" value="Nodes"/>
+						<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+						<Prp name="moniker" type="S" value=""/>
+					</Node>
+				</Node>
+				<Node name="references">
+					<Prp name="{2b0b178a-f84c-42ec-83b6-98de59370e94}" type="S" value=""/>
+					<Prp name="{445df973-52dc-4468-b99f-47ee43fd4b34}" type="S" value=""/>
+					<Prp name="{92c0d1aa-8037-4720-9a32-1c2f14456645}" type="S" value=""/>
+					<Prp name="{c0439612-e1a8-43fd-86cd-8619a358f224}" type="S" value=""/>
+					<Prp name="{cd29da7f-eaa2-4e79-9994-14560d841065}" type="S" value=""/>
+					<Prp name="{fb81fcc9-bcf9-4f91-acaf-9c6b569583e8}" type="S" value=""/>
+				</Node>
+				<Prp name="caption" type="S" value="Tests___________________"/>
+				<Prp name="description" type="S" value="A logical folder that is used to organize project items and elements."/>
+				<Prp name="moniker" type="S" value=""/>
+			</Node>
+		</Node>
+		<Node name="settings"/>
+		<Prp name="signature" type="S" value="{9252F941-DB23-4FCA-AA50-858B33BB4A19}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

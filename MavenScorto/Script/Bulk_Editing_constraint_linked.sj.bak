@@ -1,0 +1,48 @@
+﻿//USEUNIT MainMenu
+//USEUNIT OpenStrHelper
+//USEUNIT Settings
+//USEUNIT VariablesHelper
+//USEUNIT XtraError
+
+
+function Bulk_Editing_constraint_linked()
+{
+  //initialization
+  var testStrategyPath =  strLocation + "Bulk_editing.strat";//путь к стратегии для теста
+  var toolbar = new Toolbar.Toolbar();
+  var variables = new Variables.Variables();
+  var xtraError = new XtraError.XtraError();
+  //var selectConstraint = new SelectConstraint.SelectConstraint();
+  //var constraint = new Constraint.Constraint();
+  
+  //precondition
+  //openStrByPath(testStrategyPath);
+  
+  
+  //test body
+  Log.Message("Тест: Bulk Editing constraint Linked");
+  
+  for(var i=0; i<ODT.Data.BulkEditing.VariableCount; i++)
+  {
+    var item = ODT.Data.BulkEditing.Variables(i).Value;
+    if (item.options== "constraintLinked")
+    {
+      if (item.filter == "") continue;
+      toolbar.variables();
+      filterList(variables, "Name", item.filter);
+      clickRowByName(item.name);
+      variables.selectAll();
+      
+      chooseProperty("Constraint name");
+      setConstraintName(item.constraintName);
+      chooseProperty("Name");
+      xtraError.ok();
+      chooseProperty("Name");
+    }
+  }
+  //postcondition
+   variables.ok();
+ // variables.cancel();
+  toolbar.closeDoNotSave();
+  
+}

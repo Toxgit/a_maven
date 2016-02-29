@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Root Signature="{B9D9273E-7266-43E0-BF02-97F168593604}" Version="11.0">
+	<TestData Description="" Key="{EF6ADA2F-2EF1-4193-807C-F016E5F1355E}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+	</TestData>
+	<Variables Version="3" Key="{71EF6598-8301-4579-B483-817167CA80D6}" />
+	<Parameters Key="{C008E776-5480-4A7F-A93A-732498155C5E}" />
+</Root>

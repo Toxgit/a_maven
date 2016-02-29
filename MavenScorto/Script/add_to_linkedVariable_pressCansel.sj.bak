@@ -1,0 +1,34 @@
+﻿//USEUNIT ToolbarHelper
+//USEUNIT VariablesHelper
+//USEUNIT WindowErrorHelper
+//USEUNIT SelectConstraintHelper
+
+function add_to_linkedVariable_pressCansel(){
+  
+  //precondition
+  /*openStrByPath(testStrategyPath);
+  toolbar.variables();  */
+  
+  //test body
+  Log.Message("Тест: добавляем constraint для Linked переменной и жмем Cancel");
+  
+  clickRowByName("String1");
+  chooseProperty("Constraint name");
+  variables.toSelectConstraint();
+  clickListRowByName(selectConstraint, "Constraint1");
+  selectConstraint.cancel();
+  if (xtraError.alias.Exists)
+  {
+    Log.warning("Jira SC-192 брать сообщение о невозможности добавить constraint для Linked переменной при нажатии Cancel");
+    xtraError.ok();
+  }
+  
+  clickRowByName("String1");
+  checkPropertiForSelectedVariable("Constraint name", "");
+  checkPropertiForSelectedVariable("Constraint values","");
+  
+   
+  //postcondition
+  /*variables.ok();
+  toolbar.close();*/
+}

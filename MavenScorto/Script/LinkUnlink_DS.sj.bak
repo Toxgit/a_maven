@@ -1,0 +1,28 @@
+﻿//USEUNIT Test_Node_helper
+
+function LinkUnlink_DS()
+{
+  linkUnlink_Autolink_node("IPN","IPN_","Name");
+  //initialization
+ 
+  //precondition
+  Log.Message("Разлинковка переменных, линковка переменных");
+
+  //test bodys 
+  radiobuttonSetChecked(inputNode.alias.OutputVariables, 1);
+  clickListRowByName(inputNode.listVar, "id");
+  inputNode.unlink();
+  checkValueOfField(inputNode.listVar, "id", "Linked To", "");
+  clickListRowByName(inputNode.listStr, "id");
+  inputNode.link();
+  checkValueOfField(inputNode.listVar, "id", "Linked To", "id");
+   
+  Log.Message("Авто линковка");
+  radiobuttonSetChecked(inputNode.alias.InputVariables, 1);
+  clickListRowByName(inputNode.listVar, "DataSourceName");
+  inputNode.unlink();
+  checkValueOfField(inputNode.listVar, "DataSourceName", "Linked To", "");
+  inputNode.autoLink();
+  checkValueOfField(inputNode.listVar, "DataSourceName", "Linked To", "DataSourceName");
+  //postcondition
+}

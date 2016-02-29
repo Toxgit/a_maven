@@ -1,0 +1,24 @@
+﻿//USEUNIT Maven
+//USEUNIT MainMenu
+//USEUNIT Variables
+//USEUNIT NewStrategyHelper
+//USEUNIT VariablesHelper
+
+function addVar1()
+{
+  var maven = new Maven.Maven();
+  var menu = new MainMenuControl();
+  var variables = new Variables.Variables();
+  
+  Log.Message("Проверка добавления новой переменной.");
+  createNewStr();
+  menu.toVariables();
+  variables.add();
+  setVarName("xxxx");
+  variables.ok();
+  menu.toVariables();
+  if(variableExists("xxxx"))Log.Checkpoint("xxxx добавлена.");
+  deleteAllVariable();
+  variables.ok();
+  //closeOneStr();
+}

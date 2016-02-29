@@ -1,0 +1,20 @@
+﻿//USEUNIT MainMenuHelper
+//USEUNIT NodesNavigatorHelper
+//USEUNIT NodesContainerHelper
+
+
+function updateToLastVersion()
+{
+  //initialization
+  var nodesContainer = new NodesContainer.NodesContainer();
+  //precondition
+  Log.Message("Тест обновления узла до последней версии");
+  openOnlyNodesCon();
+  
+  //test bodys 
+   updateToLastVersion("a_Form");
+  
+  //postcondition
+  //closeOneStr();
+  //closeOneStrWhithWarning();  
+}

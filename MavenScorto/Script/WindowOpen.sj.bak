@@ -1,0 +1,15 @@
+﻿//new
+//USEUNIT TextBox
+//USEUNIT Settings
+
+function WindowOpen(){
+  this.alias = Aliases.Maven.dlgOpen;
+  
+  this.ok = function(){this.alias.Ok.ClickButton()}
+  this.cancel = function(){this.alias.Cancel.ClickButton()}
+  
+  this.setProjPath = function(parh){
+    var projPath = strLocation + path;
+    textBoxSetText(this.alias.Path, projPath);
+  }
+}

@@ -1,0 +1,16 @@
+﻿//USEUNIT ToolbarHelper
+//USEUNIT ConstraintsHelper
+
+function Add_numeric_constraint()
+{
+  //initialization
+  
+  //preconditions
+  toolbar_constraints();
+  constraint_add();
+  pick_Constraint("Constraint2");
+  //test body
+  setType("Numeric");
+  setMinValue(11);
+  //postcondition
+}

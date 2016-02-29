@@ -1,0 +1,29 @@
+﻿//USEUNIT MainMenuHelper2
+//USEUNIT OpenStrHelper
+//USEUNIT Settings
+//USEUNIT VariablesHelper
+
+//данный тест проверяет кнопок select, unselect.
+function selUnselButton ()
+{
+  var testStrategyPath =  strLocation + "Main dialog area.strat";//путь к стратегии для теста
+  var menu = new MainMenuControl();
+  var variables = new Variables.Variables();
+  var info = new XtraInfo.XtraInfo();
+//precondition  
+  Log.Message("Проверка кнопок select, unselect..");
+  openStrByPath(testStrategyPath);
+  menu.toVariables();
+//test body  
+  variables.unSelectAll();
+  checkDisable(variables.alias.Delete);
+  
+  variables.selectAll();
+  variables.del();
+  info.ok();
+  checkEmptyVarList();
+  
+//postcondition
+  variables.cancel();
+  closeOneStr(); 
+}

@@ -1,0 +1,55 @@
+﻿//USEUNIT MainMenuHelper2
+//USEUNIT OpenStrHelper
+//USEUNIT Settings
+//USEUNIT VariablesHelper
+
+
+//данный тест проверяет sort переменных
+function filterListSelectConstraint()
+{
+  var testStrategyPath =  strLocation + "Constraint.strat";//путь к стратегии для теста
+  var toolbar = new Toolbar.Toolbar();
+  var variables = new Variables.Variables();
+  var selectConstraint = new SelectConstraint.SelectConstraint();
+  
+//закоментировано т.к. тесты сортировки и фильтрации выполняются на техже данных 
+/*  openStrByPath(testStrategyPath);
+  toolbar.variables();
+  clickRowByName("String1");
+  chooseProperty("Constraint name");
+  variables.toSelectConstraint();*/
+
+  sortListByHeader(selectConstraint,"Name");
+  checkListItemPosition(selectConstraint, "StringConstraint2", 2);
+  checkListItemPosition(selectConstraint, "StringConstraint3", 3);
+  sortListByHeader(selectConstraint,"Name");
+  checkListItemPosition(selectConstraint, "StringConstraint2", 1);
+  checkListItemPosition(selectConstraint, "StringConstraint3", 0);
+  
+  sortListByHeader(selectConstraint,"Type");
+  checkListItemPosition(selectConstraint, "StringConstraint2", 2);
+  checkListItemPosition(selectConstraint, "StringConstraint3", 3);
+  sortListByHeader(selectConstraint,"Type");
+  checkListItemPosition(selectConstraint, "StringConstraint2", 1);
+  checkListItemPosition(selectConstraint, "StringConstraint3", 0);
+  
+  sortListByHeader(selectConstraint,"Values");
+  checkListItemPosition(selectConstraint, "StringConstraint2", 3);
+  checkListItemPosition(selectConstraint, "StringConstraint3", 1);
+  sortListByHeader(selectConstraint,"Values");
+  checkListItemPosition(selectConstraint, "StringConstraint2", 0);
+  checkListItemPosition(selectConstraint, "StringConstraint3", 2);
+
+  sortListByHeader(selectConstraint,"Used");
+  checkListItemPosition(selectConstraint, "StringConstraint2", 1);
+  checkListItemPosition(selectConstraint, "StringConstraint3", 2);
+  sortListByHeader(selectConstraint,"Used");
+  checkListItemPosition(selectConstraint, "Constraint1", 0);
+  checkListItemPosition(selectConstraint, "StringConstraint3", 1);
+  
+  //postcondition
+  selectConstraint.cancel();
+  //закоментировано т.к. тесты сортировки и фильтрации выполняются на техже данных + constraint_type
+  /*variables.ok();
+  toolbar.close();*/
+}
