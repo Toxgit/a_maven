@@ -33,9 +33,13 @@
 				<Node name="{8ee82d46-af98-4371-988c-39e367c94873}"/>
 			</Node>
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{6814BB7A-3288-42B8-B399-200D019D5429}"/>
+				<Prp name="activity" type="S" value="{100398CD-29F3-4689-B85A-9B7F8AC7EC98}"/>
 			</Node>
-			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
+				<Node name="{377d1547-f5fb-4407-908b-f20065f74ea3}">
+					<Prp name="hash" type="I" value="1"/>
+				</Node>
+			</Node>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace">
 					<Node name="0">
@@ -327,7 +331,7 @@
 						<Prp name="top" type="I" value="0"/>
 					</Node>
 					<Node name="{375bf2dc-df08-4836-83c5-f7f9a64a4e8d}">
-						<Prp name="bottom" type="I" value="47"/>
+						<Prp name="bottom" type="I" value="45"/>
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
@@ -517,7 +521,7 @@
 						<Prp name="top" type="I" value="0"/>
 					</Node>
 					<Node name="{6814bb7a-3288-42b8-b399-200d019d5429}">
-						<Prp name="bottom" type="I" value="65"/>
+						<Prp name="bottom" type="I" value="40"/>
 						<Prp name="collapsed" type="B" value="0"/>
 						<Prp name="top" type="I" value="0"/>
 					</Node>
@@ -1111,9 +1115,7 @@
 						<Node name="testedapps"/>
 					</Node>
 				</Node>
-				<Node name="a_mavensuite logs">
-					<Node name="mavenscorto logs"/>
-				</Node>
+				<Node name="a_mavensuite logs"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{8EBE6EB3-803D-4913-AD7A-D71552123A67}"/>
