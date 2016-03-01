@@ -1,8 +1,0 @@
-﻿function Print ()
-{
-this.alias = Aliases.Maven.Print;
-
-
-
-
-}

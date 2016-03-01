@@ -1,7 +1,0 @@
-﻿//Настройки теста
-var dbLocation = Project.Path + "TestData.xls"; //Расположение файла с данными о пользователях
-var strLocation = Project.Path + "Strategy\\"; //приставка location стратегий
-
-var GlobalConnectionString = "http://sc-srv:9000/MavenServer/Service.asmx";
-
-

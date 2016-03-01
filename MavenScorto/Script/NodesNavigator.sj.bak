@@ -1,7 +1,0 @@
-﻿function NodesNavigator()
- {
-  this.alias = Aliases.Maven.MainForm.NodesNavigator;
-  this.listVar = new Object;
-  this.listVar.list = this.alias.ListVar;
-  
- }
